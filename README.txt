@@ -12,3 +12,12 @@ DEPLOY:
 5. Deploy.
 
 For the complete working server, use Railway with a persistent disk/volume, or move the backend to a platform-compatible data architecture.
+
+SOUND ON BY DEFAULT (within browser rules):
+The first tap, click, or keyboard activation starts soft ambient sound. The visitor
+can toggle it off using the wave icon in the navigation or the listening button.
+Audible sound cannot be guaranteed to play on page load without a user gesture;
+modern browsers restrict autoplay. A first gesture is required.
+
+Deploy this as the V1 demo in a separate GitHub repository and Vercel project
+from the Cinematic V2 demo; both packages are independent.
